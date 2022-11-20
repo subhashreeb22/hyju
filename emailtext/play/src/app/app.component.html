@@ -1,0 +1,7 @@
+<h1>{{ title }} </h1> 
+<form #Form="ngForm" (submit)="getData(Form.value)"> 
+   <input type="text" ngModel name="firstname" placeholder="Enter the first name" autocomplete="off"/> <br><br> 
+   <input type="text" ngModel name="lasttname" placeholder="Enter the last name" autocomplete="off"/> <br><br>
+    <input type="text" ngModel name="number" placeholder="Enter the phonenumber" autocomplete="off"/> <br><br> 
+    <button>Submit</button>
+</form>

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 16px;
+    background: WHITE;
+  }
+  
+  .p{
+    margin: 40px auto;
+    padding: 16px;
+    max-width: 500px;
+    background-color:#e81f31;
+    text-align: center;
+    box-shadow: 0 24px 40px -8px RED;
+  }
+  
+  .P{
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+  }
+  
+  .p img{
+    width: 100%;
+  }
+  
+  .p h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+  }
+  
+  .q img{
+     width: 100px;
+     height: 100px; 
+  }
+  
+  ADDRESS{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+  }
+  
